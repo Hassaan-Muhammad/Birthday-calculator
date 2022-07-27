@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://source.unsplash.com/1600x900/?birthday');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+div#main {
+    background-color: rgba(104, 206, 253, 0.503);
+    margin-top: 190px;
+    margin-right: 230px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+input {
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+button{
+    background-color: rgb(127, 236, 255);
+    color: black;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+
+#header{
+    color: white;
+ justify-content: center;
+    
+}
+@media screen and (max-width: 750px) {
+    #main {
+        width: 80%;
+    }
+
+}
